@@ -20,10 +20,14 @@
 		7B2D5A751DB56DFA00F76A7E /* lobbyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2D5A741DB56DFA00F76A7E /* lobbyTest.swift */; };
 		921F0EB11DB17AD500C747D8 /* Lobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F0EB01DB17AD500C747D8 /* Lobby.swift */; };
 		921F0EB21DB17AD500C747D8 /* Lobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F0EB01DB17AD500C747D8 /* Lobby.swift */; };
+		92983E961DB5858900F70964 /* Powerup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92983E951DB5858900F70964 /* Powerup.swift */; };
+		92983E981DB5859200F70964 /* HiderPowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92983E971DB5859200F70964 /* HiderPowerUp.swift */; };
+		92983E9A1DB585A300F70964 /* SeekerPowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92983E991DB585A300F70964 /* SeekerPowerUp.swift */; };
+		92983E9C1DB585AC00F70964 /* PowerupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92983E9B1DB585AC00F70964 /* PowerupTest.swift */; };
 		A00A5D0A1DB42999009E9E16 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00A5D091DB42999009E9E16 /* Map.swift */; };
 		A00A5D0C1DB429AC009E9E16 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00A5D0B1DB429AC009E9E16 /* Tile.swift */; };
-		D735D6B31DB575A300876261 /* TileTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735D6B21DB575A300876261 /* TileTest.swift */; };
 		BC0462861DB56F3E00C0D879 /* MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0462851DB56F3E00C0D879 /* MapTests.swift */; };
+		D735D6B31DB575A300876261 /* TileTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735D6B21DB575A300876261 /* TileTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,10 +66,14 @@
 		7A8704731DB17D7B009C6A6A /* ZoomGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomGrid.swift; sourceTree = "<group>"; };
 		7B2D5A741DB56DFA00F76A7E /* lobbyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lobbyTest.swift; sourceTree = "<group>"; };
 		921F0EB01DB17AD500C747D8 /* Lobby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lobby.swift; sourceTree = "<group>"; };
+		92983E951DB5858900F70964 /* Powerup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Powerup.swift; sourceTree = "<group>"; };
+		92983E971DB5859200F70964 /* HiderPowerUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiderPowerUp.swift; sourceTree = "<group>"; };
+		92983E991DB585A300F70964 /* SeekerPowerUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeekerPowerUp.swift; sourceTree = "<group>"; };
+		92983E9B1DB585AC00F70964 /* PowerupTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerupTest.swift; path = "../ios-project/PowerupTest.swift"; sourceTree = "<group>"; };
 		A00A5D091DB42999009E9E16 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		A00A5D0B1DB429AC009E9E16 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
-		D735D6B21DB575A300876261 /* TileTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileTest.swift; sourceTree = "<group>"; };
 		BC0462851DB56F3E00C0D879 /* MapTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTests.swift; sourceTree = "<group>"; };
+		D735D6B21DB575A300876261 /* TileTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +124,9 @@
 		7A0A33B21DB16D3000C2F2D1 /* ios-project */ = {
 			isa = PBXGroup;
 			children = (
+				92983E971DB5859200F70964 /* HiderPowerUp.swift */,
+				92983E951DB5858900F70964 /* Powerup.swift */,
+				92983E991DB585A300F70964 /* SeekerPowerUp.swift */,
 				7A87046E1DB17D3C009C6A6A /* Skills */,
 				7A0A33B31DB16D3000C2F2D1 /* AppDelegate.swift */,
 				7A0A33B51DB16D3000C2F2D1 /* ViewController.swift */,
@@ -133,6 +144,7 @@
 		7A0A33C71DB16D3100C2F2D1 /* ios-projectTests */ = {
 			isa = PBXGroup;
 			children = (
+				92983E9B1DB585AC00F70964 /* PowerupTest.swift */,
 				7A0A33C81DB16D3100C2F2D1 /* ios_projectTests.swift */,
 				7A0A33CA1DB16D3100C2F2D1 /* Info.plist */,
 				7A6D0C291DB56F5E00CE586E /* SkillsTest.swift */,
@@ -296,10 +308,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A8704741DB17D7B009C6A6A /* ZoomGrid.swift in Sources */,
+				92983E9A1DB585A300F70964 /* SeekerPowerUp.swift in Sources */,
 				7A8704701DB17D4A009C6A6A /* Skill.swift in Sources */,
+				92983E961DB5858900F70964 /* Powerup.swift in Sources */,
 				7A0A33B61DB16D3000C2F2D1 /* ViewController.swift in Sources */,
 				A00A5D0A1DB42999009E9E16 /* Map.swift in Sources */,
 				7A0A33B41DB16D3000C2F2D1 /* AppDelegate.swift in Sources */,
+				92983E981DB5859200F70964 /* HiderPowerUp.swift in Sources */,
+				92983E9C1DB585AC00F70964 /* PowerupTest.swift in Sources */,
 				A00A5D0C1DB429AC009E9E16 /* Tile.swift in Sources */,
 				921F0EB11DB17AD500C747D8 /* Lobby.swift in Sources */,
 			);
